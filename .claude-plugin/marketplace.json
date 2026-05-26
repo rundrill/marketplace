@@ -11,8 +11,13 @@
   "plugins": [
     {
       "name": "rundrill-kazakh",
-      "source": { "source": "github", "repo": "rundrill/rundrill-kazakh", "ref": "v0.1.1" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-kazakh", "ref": "v0.1.2" },
       "description": "Kazakh coach — drills, progress, and mistake memory. Starts at A0 (the alphabet)."
+    },
+    {
+      "name": "rundrill-english",
+      "source": { "source": "github", "repo": "rundrill/rundrill-english", "ref": "v0.1.1" },
+      "description": "English coach — drills, progress, and mistake memory, for Russian/Kazakh speakers."
     }
   ]
 }

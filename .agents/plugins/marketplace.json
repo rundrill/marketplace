@@ -9,6 +9,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/rundrill/rundrill-kazakh.git",
+        "ref": "v0.1.2"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    },
+    {
+      "name": "rundrill-english",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rundrill/rundrill-english.git",
         "ref": "v0.1.1"
       },
       "policy": {
