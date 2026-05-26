@@ -1,0 +1,12 @@
+{
+  "name": "rundrill",
+  "owner": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com"
+  },
+  "metadata": {
+    "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
+    "version": "0.1.0"
+  },
+  "plugins": []
+}
