@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   "plugins": [
     {
@@ -33,6 +33,11 @@
       "name": "rundrill-sql",
       "source": { "source": "github", "repo": "rundrill/rundrill-sql", "ref": "v0.1.0" },
       "description": "SQL coach — learn to think in sets and read & review queries (incl. AI-generated), with the query planner as teacher, from SQLite to PostgreSQL."
+    },
+    {
+      "name": "rundrill-excel",
+      "source": { "source": "github", "repo": "rundrill/rundrill-excel", "ref": "v0.1.0" },
+      "description": "Excel coach — learn the spreadsheet by reading, predicting, and reviewing formulas (incl. AI-generated), self-scored against a rubric; core grid to Power Query, modeling, automation, and dashboards."
     }
   ]
 }

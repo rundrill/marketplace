@@ -68,6 +68,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Education"
+    },
+    {
+      "name": "rundrill-excel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rundrill/rundrill-excel.git",
+        "ref": "v0.1.0"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
     }
   ]
 }
