@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "rundrill-python",
-      "source": { "source": "github", "repo": "rundrill/rundrill-python", "ref": "v0.2.2" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-python", "ref": "v0.2.3" },
       "description": "Python coach — learn to read and review code (incl. AI-generated) with drills, progress, and mistake memory, plus optional hands-on exercises."
     }
   ]
