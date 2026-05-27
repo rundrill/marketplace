@@ -18,6 +18,11 @@
       "name": "rundrill-english",
       "source": { "source": "github", "repo": "rundrill/rundrill-english", "ref": "v0.1.2" },
       "description": "English coach — drills, progress, and mistake memory, for Russian/Kazakh speakers."
+    },
+    {
+      "name": "rundrill-python",
+      "source": { "source": "github", "repo": "rundrill/rundrill-python", "ref": "v0.2.0" },
+      "description": "Python coach — learn to read and review code (incl. AI-generated) with drills, progress, and mistake memory, plus optional hands-on exercises."
     }
   ]
 }
