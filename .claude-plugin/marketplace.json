@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.10.0"
+    "version": "0.10.1"
   },
   "plugins": [
     {
@@ -95,7 +95,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-soft-skills",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "Soft-skills coach for engineers — get better at the communication that decides careers: asking questions, giving and taking feedback, negotiating scope and estimates, async and cross-cultural writing, influence without authority, and leading. You practise by reviewing flawed messages (find the buried answer, the cross-cultural misfire, the date-as-promise) and role-playing the hard conversation — the coach never writes it for you."
     }
