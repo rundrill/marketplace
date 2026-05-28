@@ -16,7 +16,7 @@ Authoring scaffolding (`_template/`) lives in the private development monorepo, 
 
 **Claude Code / Claude Desktop** — via this marketplace:
 ```
-/plugin marketplace add rundrill/marketplace        # the org/repo of this index
+/plugin marketplace add rundrill/rundrill        # the org/repo of this index
 /plugin install rundrill-english@rundrill            # <plugin-name>@<marketplace-name>
 /reload-plugins                                      # → /english-coach is live
 ```
@@ -24,7 +24,7 @@ Authoring scaffolding (`_template/`) lives in the private development monorepo, 
 
 **OpenAI Codex** — via this marketplace too:
 ```
-codex plugin marketplace add rundrill/marketplace    # GitHub shorthand; reads .agents/plugins/marketplace.json
+codex plugin marketplace add rundrill/rundrill    # GitHub shorthand; reads .agents/plugins/marketplace.json
 ```
 Then open the plugin directory, pick the **RunDrill** marketplace, and install the course.
 

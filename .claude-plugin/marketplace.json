@@ -6,37 +6,37 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   "plugins": [
     {
       "name": "rundrill-kazakh",
-      "source": { "source": "github", "repo": "rundrill/rundrill-kazakh", "ref": "v0.1.2" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-kazakh", "ref": "v0.1.3" },
       "description": "Kazakh coach — drills, progress, and mistake memory. Starts at A0 (the alphabet)."
     },
     {
       "name": "rundrill-english",
-      "source": { "source": "github", "repo": "rundrill/rundrill-english", "ref": "v0.1.2" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-english", "ref": "v0.1.3" },
       "description": "English coach — drills, progress, and mistake memory, for Russian/Kazakh speakers."
     },
     {
       "name": "rundrill-python",
-      "source": { "source": "github", "repo": "rundrill/rundrill-python", "ref": "v0.2.5" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-python", "ref": "v0.2.6" },
       "description": "Python coach — learn to read and review code (incl. AI-generated) with drills, progress, and mistake memory, plus optional hands-on exercises."
     },
     {
       "name": "rundrill-rust",
-      "source": { "source": "github", "repo": "rundrill/rundrill-rust", "ref": "v0.1.0" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-rust", "ref": "v0.1.1" },
       "description": "Rust coach — get over the ownership wall by reading, tracing, and reviewing code (incl. AI-generated), with the compiler as teacher."
     },
     {
       "name": "rundrill-sql",
-      "source": { "source": "github", "repo": "rundrill/rundrill-sql", "ref": "v0.1.0" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-sql", "ref": "v0.1.1" },
       "description": "SQL coach — learn to think in sets and read & review queries (incl. AI-generated), with the query planner as teacher, from SQLite to PostgreSQL."
     },
     {
       "name": "rundrill-excel",
-      "source": { "source": "github", "repo": "rundrill/rundrill-excel", "ref": "v0.1.0" },
+      "source": { "source": "github", "repo": "rundrill/rundrill-excel", "ref": "v0.1.1" },
       "description": "Excel coach — learn the spreadsheet by reading, predicting, and reviewing formulas (incl. AI-generated), self-scored against a rubric; core grid to Power Query, modeling, automation, and dashboards."
     }
   ]
