@@ -94,6 +94,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Education"
+    },
+    {
+      "name": "rundrill-system-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rundrill/rundrill-system-design.git",
+        "ref": "v0.1.0"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
     }
   ]
 }
