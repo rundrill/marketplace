@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.5.1"
+    "version": "0.6.0"
   },
   "plugins": [
     {
@@ -38,6 +38,11 @@
       "name": "rundrill-excel",
       "source": { "source": "github", "repo": "rundrill/rundrill-excel", "ref": "v0.1.1" },
       "description": "Excel coach — learn the spreadsheet by reading, predicting, and reviewing formulas (incl. AI-generated), self-scored against a rubric; core grid to Power Query, modeling, automation, and dashboards."
+    },
+    {
+      "name": "rundrill-babok-prep",
+      "source": { "source": "github", "repo": "rundrill/rundrill-babok-prep", "ref": "v0.1.0" },
+      "description": "Business-analysis coach (BABOK / IIBA) — prep ECBA, CCBA, and CBAP by judging exam scenarios and reviewing real BA artifacts (find the planted defect), with mock-elicitation role-plays and timed mock exams."
     }
   ]
 }
