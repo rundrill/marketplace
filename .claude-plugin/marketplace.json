@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.10.1"
+    "version": "0.10.2"
   },
   "plugins": [
     {
@@ -32,7 +32,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-python",
-        "ref": "v0.2.6"
+        "ref": "v0.2.7"
       },
       "description": "Python coach — learn to read and review code (incl. AI-generated) with drills, progress, and mistake memory, plus optional hands-on exercises."
     },
@@ -41,7 +41,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-rust",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Rust coach — get over the ownership wall by reading, tracing, and reviewing code (incl. AI-generated), with the compiler as teacher."
     },
@@ -50,7 +50,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-sql",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "SQL coach — learn to think in sets and read & review queries (incl. AI-generated), with the query planner as teacher, from SQLite to PostgreSQL."
     },
@@ -59,7 +59,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-excel",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Excel coach — learn the spreadsheet by reading, predicting, and reviewing formulas (incl. AI-generated), self-scored against a rubric; core grid to Power Query, modeling, automation, and dashboards."
     },
@@ -68,7 +68,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-babok-prep",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "Business-analysis coach (BABOK / IIBA) — prep ECBA, CCBA, and CBAP by judging exam scenarios and reviewing real BA artifacts (find the planted defect), with mock-elicitation role-plays and timed mock exams."
     },
@@ -77,7 +77,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-system-design",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "System-design coach — design distributed systems & prep the FAANG system design interview by reviewing flawed designs (find the planted SPOF/hotspot/wrong tradeoff), defending tradeoffs, estimating capacity, and running mock interviews."
     },
@@ -86,7 +86,7 @@
       "source": {
         "source": "github",
         "repo": "rundrill/rundrill-aws",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "AWS cloud-certification coach — prep the whole ladder (Cloud Practitioner → Solutions Architect/Developer/SysOps/Data/ML → DevOps Pro → Security & Networking specialties) by choosing the best service under constraints, reviewing real configs for the planted flaw (over-broad IAM, SPOF, insecure default), and sitting timed mock exams."
     },
