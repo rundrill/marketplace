@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.9.0"
+    "version": "0.10.0"
   },
   "plugins": [
     {
@@ -89,6 +89,15 @@
         "ref": "v0.1.0"
       },
       "description": "AWS cloud-certification coach — prep the whole ladder (Cloud Practitioner → Solutions Architect/Developer/SysOps/Data/ML → DevOps Pro → Security & Networking specialties) by choosing the best service under constraints, reviewing real configs for the planted flaw (over-broad IAM, SPOF, insecure default), and sitting timed mock exams."
+    },
+    {
+      "name": "rundrill-soft-skills",
+      "source": {
+        "source": "github",
+        "repo": "rundrill/rundrill-soft-skills",
+        "ref": "v0.1.0"
+      },
+      "description": "Soft-skills coach for engineers — get better at the communication that decides careers: asking questions, giving and taking feedback, negotiating scope and estimates, async and cross-cultural writing, influence without authority, and leading. You practise by reviewing flawed messages (find the buried answer, the cross-cultural misfire, the date-as-promise) and role-playing the hard conversation — the coach never writes it for you."
     }
   ]
 }
