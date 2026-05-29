@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.10.4"
+    "version": "0.10.5"
   },
   "plugins": [
     {
@@ -98,6 +98,15 @@
         "ref": "v0.1.2"
       },
       "description": "Soft-skills coach for engineers — get better at the communication that decides careers: asking questions, giving and taking feedback, negotiating scope and estimates, async and cross-cultural writing, influence without authority, and leading. You practise by reviewing flawed messages (find the buried answer, the cross-cultural misfire, the date-as-promise) and role-playing the hard conversation — the coach never writes it for you."
+    },
+    {
+      "name": "rundrill-secure-coding",
+      "source": {
+        "source": "github",
+        "repo": "rundrill/rundrill-secure-coding",
+        "ref": "v0.1.0"
+      },
+      "description": "Secure-coding coach (OWASP OCSD / ASVS) — learn to find, exploit, and fix the vulnerabilities that ship in real code: injection, XSS, broken auth and access control, weak crypto, SSRF, deserialization, supply-chain and AI risks. The signature drill hands you plausible AI-written code with a planted vulnerability to find, name, and fix (like a security PR review), plus exploit-then-fix in your own lab, STRIDE threat models, and ASVS checklists — the coach never writes the fix for you."
     }
   ]
 }
