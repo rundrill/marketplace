@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.10.5"
+    "version": "0.10.6"
   },
   "plugins": [
     {
@@ -107,6 +107,15 @@
         "ref": "v0.1.0"
       },
       "description": "Secure-coding coach (OWASP OCSD / ASVS) — learn to find, exploit, and fix the vulnerabilities that ship in real code: injection, XSS, broken auth and access control, weak crypto, SSRF, deserialization, supply-chain and AI risks. The signature drill hands you plausible AI-written code with a planted vulnerability to find, name, and fix (like a security PR review), plus exploit-then-fix in your own lab, STRIDE threat models, and ASVS checklists — the coach never writes the fix for you."
+    },
+    {
+      "name": "rundrill-pmp-prep",
+      "source": {
+        "source": "github",
+        "repo": "rundrill/rundrill-pmp-prep",
+        "ref": "v0.1.0"
+      },
+      "description": "PMP exam-prep coach for PMI's 2026 exam (Foundations → People → Process → Business Environment) — learn the situational judgment the exam really tests: what the project manager should do FIRST, where the PMI mindset (servant leadership, collaborate before you escalate, root cause first) beats the forceful real-world reflex. The signature drill hands you a confident project decision an AI drafted and asks you to find the planted trap (jumps to authority, taps the wrong reserve, calls gold plating a change), plus the EVM/PERT/critical-path math, classification and approach-selection, and timed domain-weighted mock exams — the coach never makes the call for you."
     }
   ]
 }
