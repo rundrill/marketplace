@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "RunDrill course plugins. Each plugin is one course: a <subject>-coach skill backed by an MCP drill engine (curriculum, progress, mistake memory).",
-    "version": "0.10.8"
+    "version": "0.10.9"
   },
   "plugins": [
     {
@@ -80,6 +80,15 @@
         "ref": "v0.1.4"
       },
       "description": "System-design coach — design distributed systems & prep the FAANG system design interview by reviewing flawed designs (find the planted SPOF/hotspot/wrong tradeoff), defending tradeoffs, estimating capacity, and running mock interviews."
+    },
+    {
+      "name": "rundrill-algo-interview",
+      "source": {
+        "source": "github",
+        "repo": "rundrill/rundrill-algo-interview",
+        "ref": "v0.1.0"
+      },
+      "description": "Coding-interview algorithms coach — master data structures & algorithms and crack the FAANG coding interview by reviewing buggy solutions (find the planted bug / wrong complexity, like reviewing AI-written code), recognizing patterns from cues, deriving complexity, optimizing brute force, and running mock interviews. Language-agnostic; opt-in competitive-programming tier."
     },
     {
       "name": "rundrill-aws",
